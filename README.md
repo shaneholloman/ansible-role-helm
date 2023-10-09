@@ -1,6 +1,6 @@
 # Ansible Role: Helm
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-helm/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-helm/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-helm/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-helm/actions/workflows/ci.yml)
 
 This role installs the [Helm](https://helm.sh) binary on any supported host.
 
@@ -20,7 +20,7 @@ Controls for the version of Helm to be installed. See [available Helm releases](
 
     helm_repo_path: "https://get.helm.sh"
 
-The path to the main Helm repo. Unlessy you need to override this for special reasons (e.g. running on servers without public Internet access), you should leave it as the default.
+The path to the main Helm repo. Unless you need to override this for special reasons (e.g. running on servers without public Internet access), you should leave it as the default.
 
     helm_bin_path: /usr/local/bin/helm
 
@@ -43,4 +43,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-

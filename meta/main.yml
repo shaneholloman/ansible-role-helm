@@ -4,7 +4,7 @@ galaxy_info:
   author: shaneholloman
   role_name: helm
   description: Helm for Kubernetes.
-  company: Midwestern Mac, LLC
+  company: Shane Holloman
   license: license (MIT)
   min_ansible_version: "2.10"
   platforms:

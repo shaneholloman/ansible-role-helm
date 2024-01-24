@@ -1,12 +1,12 @@
 ---
-dependencies: []
 galaxy_info:
   author: shaneholloman
   role_name: helm
   description: Helm for Kubernetes.
   company: Shane Holloman
-  license: license (MIT)
-  min_ansible_version: "2.10"
+  license: "license (Unlicense)"
+  min_ansible_version: "2.12"
+
   platforms:
     - name: GenericUNIX
       versions:
@@ -35,6 +35,7 @@ galaxy_info:
     - name: Debian
       versions:
         - all
+
   galaxy_tags:
     - kubernetes
     - k8s
@@ -42,3 +43,5 @@ galaxy_info:
     - containers
     - helm
     - deployment
+
+dependencies: []
